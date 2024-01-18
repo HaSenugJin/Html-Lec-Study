@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .left {
+            background-image: url("/zuzu/image/vacation.jpg");
+            background-repeat: no-repeat;
+            height: 1000px;
+            background-size: 100% 100%;
+        }
+
+        .right {
+            background-color: antiquewhite;
+            height: 85%;
+        }
+
+        .nav {
+            position: absolute;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+            left: 5px;
+            right: 5px;
+            top: 5px;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-between;
+            grid-column-gap: 50px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 10px;
+        }
+
+        .new {
+            position: absolute;
+            display: grid;
+            top: 30%;
+            left: 55%;
+            font-size: 100px;
+            font-weight: 700;
+        }
+
+        .icon {
+            position: absolute;
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: end;
+            height: 99%;
+        }
+
+        .icon2 {
+            position: absolute;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: right;
+            align-items: end;
+            height: 99%;
+            width: 48%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+
+        </div>
+        <div class="right">
+            <div class="icon">
+                <img src = "/zuzu/image/le.png"></img>
+                <img src = "/zuzu/image/ri.png"></img>
+            </div>
+            <div class="icon2">
+                <img src = "/zuzu/image/fb.png"></img>
+                <img src = "/zuzu/image/in.png"></img>
+                <img src = "/zuzu/image/ti.png"></img>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="logo">zuzu.</div>
+            <div class="menu">
+                <div>about</div>
+                <div>collections</div>
+                <div>videos</div>
+                <div>contact</div>
+            </div>
+            <div class="info">
+                <div>🔍</div>
+                <div>ENG</div>
+            </div>
+        </div>
+        <div class="new">
+            <div class="text">New <br>collection</div>
+            <div class="back"></div>
+        </div>
+        <div class="leri">
+            
+            <div class="ri"></div>
+            <div class="fb"></div>
+            <div class="in"></div>
+            <div class="ti"></div>
+        </div>
+    </div>
+</body>
+</html>
